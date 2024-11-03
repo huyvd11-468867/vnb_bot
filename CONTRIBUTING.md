@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-**Welcome to Chatbot UI!**
+**Welcome to VNB Content Chatbot!**
 
 We appreciate your interest in contributing to our project.
 

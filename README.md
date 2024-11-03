@@ -1,14 +1,14 @@
-# Chatbot UI
+# VNB Content Chatbot
 
-Chatbot UI is an open source chat UI for AI models.
+VNB Content Chatbot is an open source chat UI for AI models.
 
 See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
 
-![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
+![VNB Content Chatbot](./public/screenshots/screenshot-0402023.jpg)
 
 ## Updates
 
-Chatbot UI will be updated over time.
+VNB Content Chatbot will be updated over time.
 
 Expect frequent improvements.
 
@@ -21,7 +21,7 @@ Expect frequent improvements.
 
 **Vercel**
 
-Host your own live version of Chatbot UI with Vercel.
+Host your own live version of VNB Content Chatbot with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
 
