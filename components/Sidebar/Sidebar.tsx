@@ -24,7 +24,6 @@ interface Props<T> {
   handleCreateFolder: () => void;
   handleDrop: (e: any) => void;
 }
-
 const Sidebar = <T,>({
   isOpen,
   addItemButtonTitle,
@@ -57,9 +56,14 @@ const Sidebar = <T,>({
   return isOpen ? (
     <div>
       <div
-        className={`fixed top-0 ${side}-0 z-40 flex h-full w-[260px] flex-none flex-col space-y-2 bg-[#202123] p-2 text-[14px] transition-all sm:relative sm:top-0`}
-      >
-        <div className="flex items-center">
+        className={`fixed top-0 ${side}-0 z-40 flex h-full w-[260px] flex-none flex-col space-y-2 bg-[#470e03] p-0 text-[14px] transition-all sm:relative sm:top-0`}>
+        {/* Logo */}
+        <div className="w-full m-0 p-0">
+          <img src="/images/logo_2.png" alt="Logo" className="w-full h-auto" />
+        </div>
+
+        {/* Remaining Sidebar Content */}
+        <div className="flex items-center mt-2">
           <button
             className="text-sidebar flex w-[190px] flex-shrink-0 cursor-pointer select-none items-center gap-3 rounded-md border border-white/20 p-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
             onClick={() => {
@@ -78,6 +82,7 @@ const Sidebar = <T,>({
             <IconFolderPlus size={16} />
           </button>
         </div>
+
         <Search
           placeholder={t('Search...') || ''}
           searchTerm={searchTerm}
@@ -112,6 +117,7 @@ const Sidebar = <T,>({
         </div>
         {footerComponent}
       </div>
+
 
       <CloseSidebarButton onClick={toggleOpen} side={side} />
     </div>

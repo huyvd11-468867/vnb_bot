@@ -51,7 +51,7 @@ export const ModelSelect = () => {
           ))}
         </select>
       </div>
-      <div className="w-full mt-3 text-left text-neutral-700 dark:text-neutral-400 flex items-center">
+      <div className="w-full mt-3 text-left text-red-600 dark:text-yellow-500 flex items-center">
         <a
           href="https://platform.openai.com/account/usage"
           target="_blank"
